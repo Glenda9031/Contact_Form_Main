@@ -41,20 +41,21 @@
       <p>Query Type</p>
       <div class="query-type">
         <div class="option1">
-          <input type="text" name="general" placeholder="General Enquiry">
+          <input type="text" name="general" placeholder="General Inquiry">
           <input type="radio" id="general" name="query-type" value="general" required>
         </div>
 
-        <div class="option2">
-          <input type="radio" id="support" name="query-type" checked="checked">
-          <label for="support">Support Request</label>
-        </div>
+          <div class="option2">
+            <input type="text" name="general" placeholder="Support Request">
+            <input type="radio" id="support" name="query-type" value="general" checked>
+          </div>
         <span class="error-message hidden">Please select a query type</span>
         </div>
 
         <label for="message">Message</label>
         <div class="message">
-          <input type="text" name="message" placeholder="">
+          <textarea name="message" id="message" cols="30" rows="4" placeholder=""></textarea>
+          <!--<input type="text" name="message" placeholder="">-->
         </div>
         <span class="error-message hidden">This field is required</span>
 

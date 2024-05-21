@@ -27,3 +27,123 @@ body {
     color:            #333;
     background-color: var(--light-green);
 }
+
+.container {
+    max-width:        37.5rem;
+    margin:           50px auto;
+    padding:          1.25rem;
+    background-color: var(--white);
+    border-radius:    .5rem;
+    box-shadow:       0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--green);
+}
+
+.row {
+    display: flex;
+}
+
+.first-name {
+    width: 40%;
+}
+
+.last-name {
+    width: 45%;
+    justify-content: flex-end;
+    margin-left: 2.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.email {
+    width: 90%;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: .625rem;
+    margin-bottom: .9375rem;
+    border: 1px solid var(--medium-grey);
+    border-radius: .625rem;
+}
+
+.query-type {
+    display: flex;
+}
+
+.option1 {
+    width: 40%;
+}
+
+.option2 {
+    width: 45%;
+    justify-content: flex-end;
+    margin-left: 2.5rem;
+}
+
+input[type="checkbox"] {
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+}
+
+.checkbox-text {
+    font-size: 1rem;
+    margin-left: .625rem;
+    margin-bottom: .75rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.message {
+    width: 90%;
+}
+
+.error-message {
+    display: none;
+    color: var(--red);
+    font-size: .75rem;
+}
+
+button {
+    width: 100%;
+    padding: .625rem;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--dark-grey);
+}
+
+.box {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    max-width: 18.75rem;
+    margin: 50px auto;
+    padding: 1.25rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+
